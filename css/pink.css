@@ -6,11 +6,19 @@
     border-right: 4px solid #ec1839;
     border-bottom: 4px solid #ec1839;
 }
+.contact .contact-info-item .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.portfolio .portfolio-filter button.active,
+.services .services-item .services-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .sidebar .nav li a:hover, 
 .sidebar .nav li a.active{
     color: #ec1839;
 }
+
+.services .services-item .services-item-inner:hover .icon,
 .about .about-content .timeline .circle-dot, 
 .about .about-content .timeline .timeline-item::before,  
 .about .about-content .skills .skill-item .progress .progress-in,
@@ -19,7 +27,10 @@
 .section-title h2::before, 
 .sidebar .nav-toggler span, 
 .sidebar .nav-toggler span::before, 
-.sidebar .nav-toggler span::after, 
+.sidebar .nav-toggler span::after,
 .home .intro .social-links a{
    background-color:#ec1839;
+}
+.portfolio .portfolio-filter button.active{
+	border-color: #ec1839;
 }
