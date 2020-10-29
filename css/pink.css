@@ -1,0 +1,25 @@
+.sidebar .logo a::before{
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+.sidebar .logo a::after{
+    border-right: 4px solid #ec1839;
+    border-bottom: 4px solid #ec1839;
+}
+.about .about-content .about-text h3 span,
+.sidebar .nav li a:hover, 
+.sidebar .nav li a.active{
+    color: #ec1839;
+}
+.about .about-content .timeline .circle-dot, 
+.about .about-content .timeline .timeline-item::before,  
+.about .about-content .skills .skill-item .progress .progress-in,
+.btn,
+.section-title h2::after, 
+.section-title h2::before, 
+.sidebar .nav-toggler span, 
+.sidebar .nav-toggler span::before, 
+.sidebar .nav-toggler span::after, 
+.home .intro .social-links a{
+   background-color:#ec1839;
+}
