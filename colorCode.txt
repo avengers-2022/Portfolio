@@ -27,30 +27,3 @@ Greem	- #72b626
 
 
 
-<div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Birthday : <span>1 Jun 1998</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Age : <span>22</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Website : <span>www.domain.com</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span>arifulislamwasim@gmail.com</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Degree : <span>B.Sc in CSE</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone : <span>+8801621090819</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>City : <span>Dhaka</span> </p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>City : <span>Dhaka</span> </p>
-                                        </div>
-                                    </div>
-
