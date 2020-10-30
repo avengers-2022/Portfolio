@@ -20,6 +20,14 @@ body{
     text-decoration: none;
     box-sizing: border-box;
 }
+.btn-top{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background: orange;
+    color: #000;
+    z-index: 100;
+}
 input,textarea,select{
     font-family: 'Montserrat', sans-serif;
 }
@@ -68,7 +76,7 @@ input,textarea,select{
     margin-top: 8px;
 }
 .row{
-    display: :-ms-flexbox;
+    display :-ms-flexbox;
     display: flex;
     -ms-flex-wrap:wrap;
     flex-wrap: wrap;
@@ -305,16 +313,15 @@ input,textarea,select{
    margin: 0px;
 }
 .about .about-content .personal-info{
-    -ms-flex: 0 0 60%;
-    flex:0 0 60%;
-    max-width: 60%;
-    margin-top: 40px;
-}
-.about .about-content .personal-info .info-item{
-    /*background-color: red;*/
     -ms-flex: 0 0 50%;
     flex:0 0 50%;
     max-width: 50%;
+    margin-top: 40px;
+}
+.about .about-content .personal-info .info-item{
+    -ms-flex: 0 0 100%;
+    flex:0 0 100%;
+    max-width: 100%;
 
 }
 .about .about-content .personal-info .info-item p{
@@ -339,13 +346,10 @@ input,textarea,select{
     margin-top: 10px;
 }
 
-
-
-
 .about .about-content .skills{
-    -ms-flex: 0 0 40%;
-    flex:0 0 40%;
-    max-width: 40%;
+    -ms-flex: 0 0 50%;
+    flex:0 0 50%;
+    max-width: 50%;
     margin-top: 40px;
 }
 .about .about-content .skills .skill-item{
@@ -570,6 +574,9 @@ input,textarea,select{
 .portfolio .portfolio-item.show{
     display: block;
     animation:showItem 0.5s linear;
+}
+.portfolio .portfolio-item a{
+
 }
 @-webkit-keyframes showItem{
     0% {
@@ -860,21 +867,50 @@ input,textarea,select{
 body.dark .section{
     background-color: #151515;
 }
+body.dark .contact-form .form-item .form-control,
+body.dark .services .services-item .services-item-inner,
+body.dark .about .about-content .timeline,
 body.dark .sidebar{
     background-color: #222222;
 }
-body.dark .about-content .about-text h3,
+body.dark .contact .contact-info-item h4,
+body.dark .portfolio .portfolio-filter button,
+body.dark .blog-item h1,
+body.dark .services .services-item .services-item-inner h4,
+body.dark .about .about-content .timeline .timeline-title,
+body.dark .about .about-content h3.title,
+body.dark .about .about-content .skills .skill-item h5,
+body.dark .about .about-content .personal-info .info-item p,
+body.dark .about .about-content .about-text h3,
 body.dark .section-title h2,
 body.dark .home .intro h1,
 body.dark .sidebar .logo a,
 body.dark .sidebar .nav li a{
     color: #ffffff;
-}
+} 
+body.dark .contact-form .form-item .form-control,
+body.dark .contact .contact-info-item p,
+body.dark .services .services-item .services-item-inner p,
+body.dark .about .about-content .timeline .timeline-text,
+body.dark .about .about-content .timeline .timeline-date,
+body.dark .about .about-content .skills .skill-item .skill-persent,
+body.dark .about .about-content .personal-info .info-item p span,
+body.dark .about .about-content .about-text p,
 body.dark .home .intro p{
     color:#e9e9e9;
 }
+body.dark .sidebar,
+body.dark .contact-form .form-item .form-control,
+body.dark .portfolio .portfolio-item-inner,
+body.dark .services .services-item .services-item-inner,
+body.dark .about .about-content .timeline,
+body.dark .about .about-content .personal-info .info-item p,
 body.dark .sidebar .nav li a{
     border-color:#393939;
+}
+body.dark .shadow-dark{
+    -webkit-box-shadow:none;
+    box-shadow:none;
 }
 
 
