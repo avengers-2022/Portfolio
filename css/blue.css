@@ -1,10 +1,10 @@
 .sidebar .logo a::before{
-    border-top: 4px solid #ec1839;
-    border-left: 4px solid #ec1839;
+    border-top: 4px solid #2196f3;
+    border-left: 4px solid #2196f3;
 }
 .sidebar .logo a::after{
-    border-right: 4px solid #ec1839;
-    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #2196f3;
+    border-bottom: 4px solid #2196f3;
 }
 .contact .contact-info-item .icon .fa,
 .lightbox .lightbox-controls .prev-item .fa,
@@ -15,9 +15,9 @@
 .about .about-content .about-text h3 span,
 body.dark .sidebar .nav li a:hover, 
 body.dark .sidebar .nav li a.active,
-.sidebar .nav li a:hover,
+.sidebar .nav li a:hover, 
 .sidebar .nav li a.active{
-    color: #ec1839;
+    color: #2196f3;
 }
 
 .services .services-item .services-item-inner:hover .icon,
@@ -31,8 +31,8 @@ body.dark .sidebar .nav li a.active,
 .sidebar .nav-toggler span::before, 
 .sidebar .nav-toggler span::after,
 .home .intro .social-links a{
-   background-color:#ec1839;
+   background-color:#2196f3;
 }
 .portfolio .portfolio-filter button.active{
-	border-color: #ec1839;
+	border-color: #2196f3;
 }

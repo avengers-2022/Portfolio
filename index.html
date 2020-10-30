@@ -5,8 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/pink.css">
+
+
+    <!-- Live Style Switcher - Demo Style -->
+    <link rel="stylesheet" class="alternate-style" title="pink" href="css/pink.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="blue" href="css/blue.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="orange" href="css/orange.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/yellow.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="green" href="css/green.css" type="text/css" disabled>
+
+    <link rel="stylesheet" href="css/styleSwicher.css">
+
 </head>
 
 <body>
@@ -45,7 +56,7 @@
         <div class="main-content">
 
             <!-- Home Section Start -->
-            <section class="home section hidden">
+            <section class="home section ">
                 <div class="container">
                     <div class="intro">
                         <img src="img/profile2.jpg" alt="Profile Photo" class="shadow-dark">
@@ -63,7 +74,7 @@
             <!-- Home Section End -->
 
             <!-- About Section Start -->
-            <section class="about section hidden">
+            <section class="about section">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -270,7 +281,7 @@
             <!-- About Section End -->
 
             <!-- Services Section Start -->
-            <section class="services section hidden">
+            <section class="services section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -345,7 +356,7 @@
 
             <!-- Portfolio Section Start -->
 
-            <section class="portfolio section hidden">
+            <section class="portfolio section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -458,7 +469,7 @@
             <!-- Portfolio Section End -->
 
             <!-- Blog Section Start  -->
-            <section class="blog section hidden">
+            <section class="blog section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -573,9 +584,42 @@
     <!-- Light Box End -->
 
 
+    <!-- Live Switcher - demo only start -->
+    <div class="style-switcher">
+        <div class="toggle-style-switcher">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <h5>Style Switcher</h5>
+        <ul>
+            <li><a href="Javascript:void(0);" title="pink" style="background-color:#ec1839"
+                    onclick="setActiveStyle('pink')"></a></li>
+            <li><a href="Javascript:void(0)" title="blue" style="background-color:#2196f3"
+                    onclick="setActiveStyle('blue')"></a></li>
+            <li><a href="Javascript:void(0)" title="orange" style="background-color:#fa5b0f"
+                    onclick="setActiveStyle('orange')"></a></li>
+            <li><a href="Javascript:void(0)" title="yellow" style="background-color:#ffb400"
+                    onclick="setActiveStyle('yellow')"></a></li>
+            <li><a href="Javascript:void(0)" title="green" style="background-color:#72b626"
+                    onclick="setActiveStyle('green')"></a></li>
+        </ul>
+        <h5>Body Skin</h5>
+        <label for="">
+            <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+            Light
+        </label>
+        <label for="">
+            <input type="radio" class="body-skin" name="body-style" value="dark">
+            Dark
+        </label>
+    </div>
+    <!-- Live Switcher - demo only end -->
     <!-- Template JS Start -->
     <script src="js/script.js"></script>
     <!-- Template JS End -->
+
+    <!-- Live Style JS Demo Start -->
+    <script src="js/style.js"></script>
+    <!-- Live Style JS Demo End -->
 
 </body>
 
